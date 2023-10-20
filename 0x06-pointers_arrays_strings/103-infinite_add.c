@@ -9,7 +9,7 @@
  * return: sum
 */
 
-char *infinte_add(char *n1, char *n2, char *r,int size_r)
+char *infinte_add(char *n1, char *n2, char *r, int size_r)
 {
 	/*local variable declaration*/
 	int i = 0, j = 0, k, l = 0, f, s, d = 0;
@@ -25,7 +25,7 @@ char *infinte_add(char *n1, char *n2, char *r,int size_r)
 	if (l + 1 > size_r)
 		return (0);
 	r[i] = '\0';
-	for (k =l - 1 ; k >= 0 ; k--)
+	for (k = l - 1 ; k >= 0 ; k--)
 	{
 		i--;
 		j--;
@@ -37,7 +37,7 @@ char *infinte_add(char *n1, char *n2, char *r,int size_r)
 			s = n2[j] - '0';
 		else
 			s = 0;
-		r[k] = (f + s + + d) % 10 + '0';
+		r[k] = (f + s + d) % 10 + '0';
 		d = (f + s + d) / 10;
 	}
 	if (d == 1)
