@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * print_alphabaet - utilizes on the _putchar function to print
