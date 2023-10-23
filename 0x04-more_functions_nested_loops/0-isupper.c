@@ -3,7 +3,7 @@
 /**
  * _isupper - check if c is upper
  *
- * @c: input for alphbet
+ * @c: input for alphabet
  *
  * Return: 1 if its uppercases, 0 if not
 */
