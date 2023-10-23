@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: print numbers of base16 in lowercase 
+ * Description: print numbers of base16 in lowercase
  *
  * Return: always 0 (success)
 */
@@ -11,7 +11,7 @@
 int main(void)
 {
 	int digit = 48; /*48; decimal rep of 0*/
-	
+
 	while (digit <= 102) /*102; decimal ref of f*/
 	{
 		putchar(digit);
