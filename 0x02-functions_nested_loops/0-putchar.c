@@ -2,7 +2,8 @@
 
 /**
  * main - entry point
- *
+ * @_putchar: a
+ * 
  * Description: prints _putchar using putchar prototype
  *
  * Return: always 0 (success)
