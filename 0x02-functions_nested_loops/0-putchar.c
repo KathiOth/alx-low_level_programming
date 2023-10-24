@@ -8,12 +8,10 @@
  * Return: always 0 (success)
 */
 
-int main(void)
+void _putchar(void)
 {
 	char str[] = "_putchar";
 	int ch;
-
-	void _putchar( );
 
 	for (ch = 0; ch < 8; ch++)
 		_putchar(str[ch]);
