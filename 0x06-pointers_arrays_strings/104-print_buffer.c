@@ -34,7 +34,7 @@ void printHexes(char *b, int start, int end)
 	}
 }
 /**
- * printASCII é print ascii values for string b. formated to replace
+ * printASCII - print ascii values for string b. formated to replace
  * nonprintable chats with '.'
  * @b: string to print
  * @start: starting position
